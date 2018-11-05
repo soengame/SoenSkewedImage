@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,7 +12,8 @@ namespace Soen
         //originated from :
         //https://github.com/revolt3r/SkewedImage
 
-        //다음 웹페이지에서 soengame의 최신 정보를 얻으세요!
+        //아래 웹페이지에서 soengame의 최신 정보를 얻으세요!
+        //Get the latest information on soengame from the web page below!
         //https://www.facebook.com/profile.php?id=100017292964953
 
 
@@ -86,7 +87,7 @@ namespace Soen
                                     case FillMethod.Radial360:
                                     case FillMethod.Radial180:
                                     default:
-                                        Debug.LogError("[SkewedImage] 미구현 :Radial90 / Radial370 / Radial180");
+                                        Debug.LogError("[SoenSkewedImage] not implemented yet :Radial90 / Radial370 / Radial180");
                                         break;
                                 }
                             }
@@ -96,7 +97,7 @@ namespace Soen
                         case Type.Sliced:
                         case Type.Tiled:
                         default:
-                            Debug.LogError("[SkewedImage] 미구현: Type.Sliced, Type.Tiled.");
+                            Debug.LogError("[SoenSkewedImage] not implemented yet : Type.Sliced, Type.Tiled.");
                             break;
                     }
                 }
